@@ -1,0 +1,117 @@
+
+body{
+  background-image: URL('OIP.jpg');
+  background-size: cover;
+}
+p {
+  text-align: justify;
+}
+
+:root {
+  --dark-bg: rgba(15, 15, 15, 0.842);
+  font-family: brandon-grotesque, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+main {
+  width: 100vw;
+  color: white;
+  z-index: 99;
+  position: absolute;
+  width: 100%;
+  margin: 0px auto;
+  padding: 120px 0px;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  }
+
+h1, h2, h3, blockquote {
+  font-family: elevon, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  }
+
+canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+  } 
+
+.CVpics{
+grid-column: 8/12 ;
+margin-bottom: 60px;
+  } 
+
+  header {
+    background: var(--dark-bg);
+    grid-column: 2 / span 7;
+    font-size: 2.5rem;
+    padding: 2rem;
+    padding-right: 0px;
+    margin-bottom: 200px;
+    margin-right: 90px;
+  }
+
+  section {
+    grid-column: 2 / 8;
+    padding: 1rem;
+    background: var(--dark-bg);
+    font-size: 1.25rem;
+    line-height: 1.5;
+    margin-bottom: 150px;
+  }
+
+  blockquote {
+    margin: 0;
+    padding: 0;
+    grid-column: 2 / span 9;
+    margin-bottom: 100px;
+
+  }
+
+  blockquote p {
+    color: rgb(255, 255, 255);
+    background-color: rgba(255, 255, 255, 0);
+    font-size: 4rem;
+    display: inline;
+    line-height: 1;
+    margin-bottom: 100px;
+  }
+
+  .middle{
+    grid-column: 6 / 10 ;
+    margin-right: 50px;
+  }
+
+  .left {
+    grid-column: 8 / 12;
+  }
+  
+
+  iframe#QSMFDSTURO{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 300px; /* Adjust width as needed */
+    height: 400px; /* Adjust height as needed */
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    z-index: 9999; /* Ensure it's above other elements */
+  }
+
+a.CV-link {
+    color: #ffff; 
+    font-weight: bold; 
+
+  }
+a.CV-link:hover {
+    color: #0056b3; 
+  }
+a:link {
+  color: turquoise;
+}
+a:visited{
+  color:blue;
+}
